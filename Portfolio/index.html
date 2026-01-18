@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal! Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+       
+        <div class="container">
+            <nav>
+                <img src="logo-removebg-preview.png" alt="logo" height="150">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">My Work</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Sharmila</span></h1>
+                <div class="cv-button-wrapper">
+  <a href="https://drive.google.com/file/d/1OnoTNzvqA5UnGHuosoDBlJYduIAAAxRC/view?usp=drivesdk" target="_blank" download class="cv-btn">
+    <i class="fas fa-file-pdf"></i>
+    View my Resume
+  </a>
+</div>
+
+<!-- Font Awesome CDN (add once in your project) -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+            </div>
+            
+
+        </div>
+        
+    </div>
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="tech-removebg-preview.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>I am a passionate and motivated MCA student with a strong foundation in computer applications 
+                        and programming. Eager to apply my knowledge in areas such as software development, web
+                         technologies and database management, I am constantly exploring new tools and frameworks to enhance my 
+                         technical skills. I thrive in problem-solving environments and enjoy learning through practical projects 
+                         and collaborative experiences. With a keen interest in emerging technologies, I am committed to growing as a proficient developer and contributing effectively to innovative
+                          solutions.</p>
+
+                          <div class="tab-titles">
+                            <p class="tab-link active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-link" onclick="opentab('Tools')">Tools</p>
+                            <p class="tab-link" onclick="opentab('Education')">Education</p>
+                          </div>
+                          <div class="tab-contains active-tab" id="Skills">
+                            <ul>
+                                <li><span>Programming Language</span><br>Java, Python, C, C++</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>SQL</span><br>Database Management</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contains" id="Tools">
+                            <ul>
+                                <li><span>VS-Code</span><br>Web and Desktop Application</li>
+                                <li><span>MySQL-PostgreSQL</span><br>Database Management tool</li>
+                                <li><span>InteliJ</span><br>Console and Desktop Application</li>
+                                <li><span>MS-Tools</span><br>Ms Word, Ms Excel, Ms Powerpoint, Ms Access and Spread sheet</li>
+                            </ul>
+                          </div>
+                          <div class="tab-contains" id="Education">
+                            <ul>
+                                <li><span>2024-Present</span><br>MCA from Mailam Engineering College, Anna University <br>cgpa: 8.8/10</li>
+                                <li><span>2021-2024</span><br>BCA from Pope John Paull, Pondicherry University <br>cgpa: 8.3/10</li>
+                                
+                            </ul>
+                          </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="project">
+    <div class="My-work">
+         <header>
+        <h1>My Work</h1>
+        
+    </header>
+    
+    <section class="projects">
+        <!-- Project 1 -->
+        <div class="project-card">
+            <img src="project_image1.jpg" alt="Online Bookstore">
+            <div class="project-content">
+                <h3>Dog Care Website</h3>
+                <p>A web application to manage vaccination, salon booking, and buying & selling your pet.</p>
+                <p class="tech"><strong>Technologies:</strong>HTML/CSS, JavaScript, php, MySQL</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <img src="project_image2.png" alt="Portfolio Website">
+            <div class="project-content">
+                <h3>Personal Portfolio Website</h3>
+                <p>A responsive portfolio to showcase my projects and skills online.</p>
+                <p class="tech"><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <img src="project_image3.jpg" alt="Student Management">
+            <div class="project-content">
+                <h3>Student Management System</h3>
+                <p>Desktop app to manage student records, courses, and attendance.</p>
+                <p class="tech"><strong>Technologies:</strong> Python, SQLite</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card">
+            <img src="project_image4.jpg" alt="Expense Tracker">
+            <div class="project-content">
+                <h3>Online Chat Application</h3>
+                <p>User can send and receive message.</p>
+                <p class="tech"><strong>Technologies:</strong> Java(swing, TCP socket)</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="project_image5.jpg" alt="Expense Tracker">
+            <div class="project-content">
+                <h3>Tic Tac Toe</h3>
+                <p>Tic tac toe game application.</p>
+                <p class="tech"><strong>Technologies:</strong> Java(OOPS Concept)</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="project_image6.jpg" alt="Expense Tracker">
+            <div class="project-content">
+                <h3>Mini Calculator</h3>
+                <p>Build desktop calculator.</p>
+                <p class="tech"><strong>Technologies:</strong> Java(swing, AWT)</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </section>
+</div>
+    </div>
+    <div id="certificates">
+    <section class="cert-section">
+         <header>
+        <h1>Certificates</h1>
+        
+    </header>
+    
+    <ul class="cert-list">
+        <li>
+            <span class="cert-title">PROGRAMMING WITH JAVA</span>
+            <span class="cert-meta">NPTEL • 2025</span>
+            <a href="#" target="_blank">View</a>
+        </li>
+
+        <li>
+            <span class="cert-title">FULL STACK WEB DEVELOPMENT</span>
+            <span class="cert-meta">Skill UP Tech Sollution  • 2025</span>
+            <a href="#" target="_blank">View</a>
+        </li>
+
+        <li>
+            <span class="cert-title">INTRODUCTION TO AI</span>
+            <span class="cert-meta">Great Learning • 2024</span>
+            <a href="#" target="_blank">View</a>
+        </li>
+    </ul>
+    <header>
+        <h1>Industrial Training</h1>
+    </header>
+    <ul class="cert-list">
+        <li>
+            <span class="cert-title">INTERNET OF THINGS(IOT)</span>
+            <span class="cert-meta">Kaashiv Info Tech • 2025</span>
+            <a href="#" target="_blank">View</a>
+        </li>
+
+        <li>
+            <span class="cert-title">FULL STACK INTERN</span>
+            <span class="cert-meta">Kosoft IT Solution  • 2023</span>
+            <a href="#" target="_blank">View</a>
+        </li>
+
+        
+    </ul>
+</section>
+</div>
+<section id="contact" class="contact-section">
+  <div class="contact-wrapper">
+
+    <!-- LEFT : Contact Form -->
+    <div class="contact-left">
+      <h2>Contact Me</h2>
+      <p>Let’s build something amazing together.</p>
+
+      <form id="contactForm" class="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <span id="formMessage"></span>
+      </form>
+    </div>
+
+    <!-- RIGHT : Contact Links -->
+    <div class="contact-right">
+      <h2>Reach Me</h2>
+
+      <ul class="contact-links">
+        <li>
+          <a href="https://www.linkedin.com/in/shar
+mila-a-379295334/" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/SharmilaArumu
+gam237" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </li>
+        
+
+        <li>
+          <a href="tel:+1234567890">
+            <i class="fas fa-phone"></i> +91 79049 30097
+          </a>
+        </li>
+
+        <li>
+          <a href="https://wa.me/7904930097" target="_blank">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+        </li>
+
+        <li>
+          <a href="mailto:youremail@gmail.com">
+            <i class="fas fa-envelope"></i> arthisharmi237@gmail.com
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+</div>
+
+<!-- Font Awesome -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+<footer id="footer">
+        &copy; 2026 Sharmila. All rights reserved.
+    </footer>
+
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontains = document.getElementsByClassName("tab-contains");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontain of tabcontains){
+                tabcontain.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        const form = document.getElementById("contactForm");
+const formMessage = document.getElementById("formMessage");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const message = document.getElementById("message").value.trim();
+
+  if (!name || !email || !message) {
+    formMessage.style.color = "red";
+    formMessage.textContent = "Please fill in all fields.";
+    return;
+  }
+
+  formMessage.style.color = "green";
+  formMessage.textContent = "Message sent successfully! 🚀";
+
+  form.reset();
+});
+
+    </script>
+    
+</body>
+</html>
